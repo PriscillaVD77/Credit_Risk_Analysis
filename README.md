@@ -2,53 +2,52 @@
 # Overview 
 In this project, we are tasked with analyzing credit score. We use machine learning models to analyze risk of lending based on several credit factors.
 ## Results
+![Accuracy Score Using Oversampling](images/oversample_ac.png)
 <br>
-![Accuracy Score Using Oversampling](oversample_ac.png)
-<br>
-![Precision and Recall Using Oversampling](oversample_score.png)
+![Precision and Recall Using Oversampling](images/oversample_score.png)
 <br>
 -	Accuracy score: .66  <br>
 -	Precision  score: .90  <br>
 -	Recall score: .60 <br>
 -	f1 score: .75 <br>
+
+![Accuracy Score Using SMOTE](images/smote_ac.png)
 <br>
-![Accuracy Score Using SMOTE](smote_ac.png)
-<br>
-![Precision and Recall Using SMOTE](score_score.png)
+![Precision and Recall Using SMOTE](images/score_score.png)
 <br>
 -	Accuracy score: .66 <br>
 -	Precision  score: .99 <br>
 -	Recall score: .69 <br>
 -	f1 score: .81 <br>
+
+![Accuracy Score Using Undersampling](images/undersample_ac.png)
 <br>
-![Accuracy Score Using Undersampling](undersample_ac.png)
-<br>
-![Precision and Recall Using Undersampling](undersample_score.png)
+![Precision and Recall Using Undersampling](images/undersample_score.png)
 <br>
 -	Accuracy score: .57 <br>
 -	Precision  score: .99 <br>
 -	Recall score: .52 <br>
 -	f1 score: .68 <br>
+
+![Accuracy Score Using SMOTEENN](images/combine_ac.png)
 <br>
-![Accuracy Score Using SMOTEENN](combine_ac.png)
-<br>
-![Precision and Recall Using SMOTEENN](combine_score.png)
+![Precision and Recall Using SMOTEENN](images/combine_score.png)
 -	Accuracy score: .56 <br>
 -	Precision  score: .99 <br>
 -	Recall score: .57 <br>
 -	f1 score: .72 <br>
+
+![Accuracy Score Using BalancedRandomForestClassifier](images/brfc_acc.png)
 <br>
-![Accuracy Score Using BalancedRandomForestClassifier](brfc_ac.png)
-<br>
-![Precision and Recall Using BalancedRandomForestClassifier](brfc_score.png)
+![Precision and Recall Using BalancedRandomForestClassifier](images/brfc_score.png)
 <br>
 -	Accuracy score: .79 <br>
 -	Precision  score: .99 <br>
 -	Recall score: .87 <br>
 -	f1 score: .93 <br>
-<br>
-![Accuracy Score Using EasyEnsembleClassifier](ecc_ac.png)
-![Precision and Recall Using EasyEnsembleClassifier](ecc_score.png)
+
+![Accuracy Score Using EasyEnsembleClassifier](images/ecc_acc.png)
+![Precision and Recall Using EasyEnsembleClassifier](images/ecc_score.png)
 <br>
 -	Accuracy score: .93 <br>
 -	Precision  score: .99 <br>
